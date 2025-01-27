@@ -440,7 +440,13 @@ body {
     border-bottom: 80px solid var(--main-color);
     z-index: -1;
 }
+@media (max-width: 991px) {
 
+    .about .about-content .imgs::after,
+    .about .about-content .imgs::before {
+        display: none;
+    }
+}
 
 .about .about-content .imgs img {
     max-width: 100%;
